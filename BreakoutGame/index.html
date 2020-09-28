@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Breakout</title>
+  </head>
+  <body id="gradient">
+    <h1>Breakout</h1>
+    <button id="rules-btn" class="btn rules-btn">
+      Afișează regulile jocului
+    </button>
+    <div id="rules" class="rules">
+      <h2>Cum să joci:</h2>
+      <p>
+        Utilizează săgeată stânga și săgeată dreapta ca să muți paleta. Mingea
+        sare și sparge blocurile.
+      </p>
+      <p>Dacă mingea cade de pe paletă scorul și blocurile se vor reseta.</p>
+      <button id="close-btn" class="btn">Închide</button>
+    </div>
+    <canvas id="canvas" width="800" height="700"> </canvas>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="/BreakoutGame/gradient.js"></script>
+    <script src="/BreakoutGame/canvas.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
